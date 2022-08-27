@@ -8,7 +8,7 @@ This python module provides a python script that checks if a specified program i
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/python-tool-jk-checkpproc)
+* [github.com](https://github.com/jkpubsrc/python-tool-jk-checkproc)
 * [pypi.python.org](https://pypi.python.org/pypi/jk-checkpproc)
 
 Why this tool?
