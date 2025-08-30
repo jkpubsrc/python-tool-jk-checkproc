@@ -14,7 +14,20 @@ Information about this module can be found here:
 Why this tool?
 ----------------
 
-...
+This tool can be used as part of `.bashrc` to detect if the current session is a ssh remote login session or not.
+If so you can set the prompt accordingly.
+
+Example:
+
+```bash
+if jkcheckpproc.py -c sshd; then
+	# set your custom prompt here
+	PS1=....
+else
+	# use the standard prompt
+	PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+fi
+```
 
 Contact Information
 -------------------
